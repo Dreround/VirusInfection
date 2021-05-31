@@ -7,7 +7,7 @@ public class Hospital {
 	private int x = 570;
 	private int y = 300;
 	private static Bed[] b;
-	public static int max = 300;
+	public static int max = 30;
 	public boolean isFull = false;
 	public Hospital() {
 		b = new Bed[max];
