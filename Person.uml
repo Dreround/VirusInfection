@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GUI.Person</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">GUI.vaccinatedPerson</node>
+    <node x="652.0" y="80.0">GUI.hospitalizedPerson</node>
+    <node x="442.0" y="80.0">GUI.diagnosedPerson</node>
+    <node x="213.0" y="80.0">GUI.undiagnosedPerson</node>
+    <node x="264.0" y="0.0">GUI.Person</node>
+    <node x="-192.3719482421875" y="80.0">GUI.pastPerson</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GUI.vaccinatedPerson" target="GUI.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="96.5" y="55.0" />
+      <point x="317.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="GUI.diagnosedPerson" target="GUI.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="537.0" y="55.0" />
+      <point x="317.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="GUI.hospitalizedPerson" target="GUI.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="753.5" y="55.0" />
+      <point x="317.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="GUI.pastPerson" target="GUI.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="-136.87049865722656" y="95.0" />
+      <point x="-136.87049865722656" y="55.0" />
+      <point x="317.5" y="55.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GUI.undiagnosedPerson" target="GUI.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7700239459261033" showDependencies="false" x="396.14499860045214" y="54.04488720776777" />
+  <SelectedNodes>
+    <node>GUI.Person</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

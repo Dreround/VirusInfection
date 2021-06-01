@@ -22,6 +22,25 @@ public class Person{
 	public Person() {
 		
 	}
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public int getD() {
+		return d;
+	}
+
+	public int getMoveRate() {
+		return MoveRate;
+	}
+
+	public Rectangle getInfect() {
+		return infect;
+	}
 	public Person(int x,int y) {
 		r = new Rectangle(x,y,d,d);//±»´«È¾·¶Î§
 		infect = new Rectangle(x-10,y-10,d+20,d+20);//´«È¾·¶Î§
@@ -29,7 +48,7 @@ public class Person{
 		this.y=y;
 	}
 	public void draw(Graphics g) {
-		r = new Rectangle(x,y,d,d);//±»´«È¾·¶Î§
+		Rectangle r = new Rectangle(x,y,d,d);//±»´«È¾·¶Î§
 		infect = new Rectangle(x-10,y-10,d+20,d+20);//´«È¾·¶Î§
 		g.fillOval(x, y, d, d);
 		if(!isDead&&((int) (Math.random()*100)<MoveRate)) {
