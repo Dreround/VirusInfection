@@ -1,5 +1,7 @@
 package GUI;
 
+import Person.Person;
+
 import java.awt.*;
 
 public class drawPerson implements Draw{

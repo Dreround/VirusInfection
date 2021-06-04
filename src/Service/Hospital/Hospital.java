@@ -1,4 +1,4 @@
-package GUI;
+package Service.Hospital;
 
 import java.awt.Color;
 import java.awt.Graphics;

@@ -1,5 +1,8 @@
 package GUI;
 
+import Service.City.City;
+import Service.Hospital.Hospital;
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import javax.swing.*;

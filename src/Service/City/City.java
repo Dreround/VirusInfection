@@ -1,4 +1,7 @@
-package GUI;
+package Service.City;
+
+import Person.Person;
+import Service.Hospital.Hospital;
 
 import java.awt.Color;
 import java.awt.Graphics;
