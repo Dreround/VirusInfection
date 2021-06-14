@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
-	<output-test url="file://$MODULE_DIR$/classes/test/新型冠状病毒"/>
-	<exclude-output/>
+<component jdk="1.8" jdk_type="JavaSDK">
 	<contentEntry url="file://$MODULE_DIR$"/>
 </component>

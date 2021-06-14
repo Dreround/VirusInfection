@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/src/GUI/City.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/GUI/Game.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/GUI/Person.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Person/Person.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Service/City/City.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/test/TestQueue.java" charset="GBK" />
   </component>
 </project>

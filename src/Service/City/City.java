@@ -23,7 +23,10 @@ public class City {
 	private List<Person> curing = new ArrayList<Person>();
 	private List<Person> cured = new ArrayList<Person>();
 	double ansX,ansY;
-	public City() {
+
+	private static City city;
+
+	private City() {
 		p = new Person[num];
 		Random r = new Random();
 		int id= (int) (Math.random() * num);
@@ -53,11 +56,27 @@ public class City {
 		}
 		infected.add(p[id]);
 	}
-	public City(int x,int y) {
+	private City(int x,int y) {
 		this();
 		this.x=x;
 		this.y=y;
 	}
+
+	public static City getInstance(){
+		if(city == null){
+			city = new City();
+		}
+		return city;
+	}
+
+	public static City getInstance(int x,int y){
+		if(city == null){
+			city = new City(x,y);
+		}
+		return city;
+	}
+
+
 	public int getNum() {
 		return num;
 	}

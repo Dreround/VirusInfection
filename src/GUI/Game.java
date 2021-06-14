@@ -3,9 +3,9 @@ package GUI;
 import Service.City.City;
 import Service.Hospital.Hospital;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import javax.swing.*;
 
 
 public class Game extends JFrame{
@@ -19,8 +19,10 @@ public class Game extends JFrame{
 	private boolean GameOver = false;
 	private BufferedImage bi;
 	private int day = 0;
+
 	public Game() {
-		c = new City();
+		c = City.getInstance();
+
 		h = new Hospital();
 		this.setSize(800, 800);
 		this.setVisible(true);
